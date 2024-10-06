@@ -20,4 +20,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #!/bin/bash
 #=================================================
 
-sed -i '$a src-git kiddin9 https://github.com/kiddin9/kwrt-packages.git;master' feeds.conf.default
+sed -i '$a src-git kiddin9 https://github.com/kiddin9/kwrt-packages.git;main' feeds.conf.default
